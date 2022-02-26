@@ -15,4 +15,4 @@ new_york_city.csv
 washington.csv
 
 ### Credits
-Udacity Mentor Help and Udacity Project FAQs
+Udacity Mentor Help and Udacity Project FAQ
