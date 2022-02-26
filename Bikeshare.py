@@ -17,10 +17,10 @@ def get_filters():
     """
     print('Hello! Let\'s explore some US bikeshare data!')
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
-    city = input("\nEnter the city: Chicago, New York City, Washington: \n").lower()
+    city = input("\nEnter the city from: Chicago, New York City, Washington: \n").lower()
     while city not in ['chicago','new york city','washington']:
       print('Try again!')
-      city = input("\nEnter the city: Chicago, New York City, Washington \n").lower()
+      city = input("\nEnter the city from: Chicago, New York City, Washington \n").lower()
 
     # TO DO: get user input for month (all, january, february, ... , june)
     month = input("\nEnter the month: all, January, February, March, April, May, June: \n").lower()
